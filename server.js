@@ -21,7 +21,7 @@ const createWindow = () => {
 
 app.whenReady().then(() => {
     createWindow()
-}) 
+})
 
 //mongo setup
 const MongoClient = require('mongodb').MongoClient

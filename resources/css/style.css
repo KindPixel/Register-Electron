@@ -72,6 +72,12 @@ body {
   margin-top: 0px;
 }
 
+.registerbox {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right:10px;
+}
+
 .logo {
   margin-right: 20px;
 }
