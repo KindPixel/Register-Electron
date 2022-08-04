@@ -1,4 +1,4 @@
-body {
+/* body {
   background: #ebeff2;
 }
 
@@ -25,7 +25,7 @@ body {
 .loginbox input:active {
   border: 1px solid cornflowerblue;
   box-shadow: none;
-}
+} */
 
 #register_form input {
   font-size: 13px;
@@ -78,15 +78,6 @@ body {
   margin-right:10px;
 }
 
-.logo {
-  margin-right: 20px;
-}
-
-nav span,
-a {
-  margin-left: 20px;
-  text-decoration: none;
-}
 
 #myTable {
   margin: 20px;
@@ -94,7 +85,7 @@ a {
 
 #myTable td {
   padding: 3px 0px;
-}
+} */
 
 .btn-submit,
 .btnSelect {
@@ -140,7 +131,7 @@ a {
   width: 100%;
 }
 
-.navbar .container-fluid > .navbar-header {
+/* .navbar .container-fluid > .navbar-header {
   float: left;
   margin-right: 10px;
 }
@@ -196,18 +187,7 @@ a {
 
 .form-group {
   margin-top: 5px;
-}
-
-#register_form {
-  /* max-width: 400px;
-  margin: 0 auto;
-  border: 1px solid #ddd;
-  padding: 25px;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
-}
+} */
 
 #register_form label {
   font-size: 13px;
@@ -224,6 +204,7 @@ a {
   width: 100%;
   max-width: 1000px;
 }
+
 .maxwidthform {
   margin: 0 auto;
   margin-top: 40px;
@@ -263,17 +244,17 @@ a {
   position: absolute;
 }
 
-.navbar {
+/* .navbar {
   background: #555 !important;
-}
+} */
 
 .nav-link {
   color: #fff !important;
 }
-
+/* 
 .navbar-collapse {
   border-left: 1px solid #999;
-}
+} */
 
 label {
   display: inline-block;
@@ -282,7 +263,7 @@ label {
 div {
   position: relative;
 }
-.password-helper {
+/* .password-helper {
   display: inline-block;
   background-color: cornsilk;
   position: fixed;
@@ -291,7 +272,7 @@ div {
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-left: 25%;
-}
+} */
 
 .singleuser {
   margin-left: 50%;
