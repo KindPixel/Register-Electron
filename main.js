@@ -11,14 +11,9 @@ const createWindow = () => {
         autoHideMenuBar: true,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
-            nodeIntegration: true,
-            contextIsolation: false
+            nodeIntegration: true
         }
     })
-
-    //jquery setup
-    const $ = require('jquery')
-    win.$ = $
 
     win.loadFile('view/index.html')
     win.openDevTools()

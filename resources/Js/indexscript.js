@@ -2,8 +2,10 @@ $(document).ready(function () {
 
     $("#butreaload").click(function (e) {
 
+        $("#userstab tbody").empty();
 
         collection.find({}).toArray(function (err, result) {
+            
             if (err) throw err;
             console.log(result);
             result.forEach(element => {
